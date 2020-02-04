@@ -1,0 +1,14 @@
+*.class
+*.jar
+*.war
+
+# Eclipse
+.classpath
+.project
+target
+.settings
+
+# idea
+.idea
+.idea/
+*.iml
