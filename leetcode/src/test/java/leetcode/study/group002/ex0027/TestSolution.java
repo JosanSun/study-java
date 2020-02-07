@@ -1,0 +1,25 @@
+package leetcode.study.group002.ex0027;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+/**
+ * @Author : josan
+ * @Date : 2020/2/2 21:07
+ * @Package : leetcode.study.ex0001
+ * @ProjectName: pom-parent
+ * @Description:
+ */
+public class TestSolution {
+    @Test
+    public void testRemoveDuplicates() {
+        doTestRemoveDuplicates(new int[]{3,2,2,3}, 3, 2);
+        doTestRemoveDuplicates(new int[]{0,1,2,2,3,0,4,2}, 2, 5);
+    }
+
+    private void doTestRemoveDuplicates(int[] nums, int val, int expected) {
+        Solution solution = new Solution();
+        Assert.assertEquals("not the same", expected,
+                solution.removeElement(nums, val));
+    }
+}
