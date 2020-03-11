@@ -8,6 +8,11 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>exercise</artifactId>
+    <artifactId>exercise-parent</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>leetcode-exercise</module>
+    </modules>
 
 </project>
